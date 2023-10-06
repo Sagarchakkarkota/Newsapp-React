@@ -69,7 +69,7 @@ return string.charAt(0).toUpperCase()+string.slice(1)
 
     return (<>
    
-            <h1 className='text-center ' style={{margin : "35px 0px ", marginTop:"90px" }}> Top Headlines of {capitalizfirstletter(props.category)} news - NewsInstant</h1>
+            <h1 className='text-center ' style={{margin : "35px 0px ", marginTop:"90px" }}> HeadLines {capitalizfirstletter(props.category)} news - NewsInstant</h1>
           {  loading && <Spinner/>}
             
         <div className="container">
